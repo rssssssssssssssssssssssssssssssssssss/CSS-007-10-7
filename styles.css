@@ -1,16 +1,20 @@
-p{
-    color: red;
-    background-color: navajowhite;
-}
 
-*{
-    color:hotpink;
-}
 
 h2 {
     background-color: rebeccapurple;
 }
 
-<!-- .heading-class{
-    background-color: olive;
-} -->
+.heading-class{
+    background-color: plum;
+}
+
+#box{
+    color: blue;
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+}
+
+p{
+    text-align: center;
+}
