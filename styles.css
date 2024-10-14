@@ -11,10 +11,35 @@ h2 {
 #box{
     color: blue;
     text-align: center;
-    text-decoration-line: overline;
+    text-decoration-line: underline;
     text-decoration-style: dotted;
 }
 
 p{
     text-align: center;
+}
+
+div{
+    background-color:brown;
+    width:400px;
+    height:60px;
+    border-width:3px;
+    border-color: black;
+    border-width:50px;
+    border: solid;
+    border-radius: 40px;
+    padding: 10px 10px 20px 20px;
+    margin:20px;
+    display:inline-block;
+}
+nav ul{
+    list-style:none;
+    text-decoration:none;
+    background:coral;
+    color:white;
+    padding:20px
+}
+nav ul li{
+    display:inline;
+    margin:10vh;
 }
