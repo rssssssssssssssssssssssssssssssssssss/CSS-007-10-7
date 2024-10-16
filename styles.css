@@ -10,9 +10,16 @@ h2 {
 
 #box{
     color: blue;
+    background-color: palegreen;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: dotted;
+}
+#box2{
+    background-color: seagreen;
+}
+#box3{
+    background-color: aquamarine;
 }
 
 p{
@@ -20,9 +27,8 @@ p{
 }
 
 div{
-    background-color:brown;
-    width:400px;
-    height:60px;
+    width:100px;
+    height:100px;
     border-width:3px;
     border-color: black;
     border-width:50px;
@@ -31,6 +37,7 @@ div{
     padding: 10px 10px 20px 20px;
     margin:20px;
     display:inline-block;
+    opacity: .5;
 }
 nav ul{
     list-style:none;
@@ -42,4 +49,10 @@ nav ul{
 nav ul li{
     display:inline;
     margin:10vh;
+}
+footer{
+    background-color: salmon;
+    color:white;
+    padding: 5px;
+
 }
