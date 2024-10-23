@@ -1,0 +1,19 @@
+nav ul{
+    list-style:none;
+    text-decoration:none;
+    background:black;
+    color:navajowhite;
+    padding:20px
+}
+nav ul li{
+    display:inline;
+}
+nav{
+    direction: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}

@@ -29,13 +29,3 @@ div{
     align-content: center;
     justify-content: center;
 }
-nav ul{
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-}
-header{
-    direction: flex;
-    flex-direction: center;
-}
