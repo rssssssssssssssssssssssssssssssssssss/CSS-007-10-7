@@ -1,0 +1,137 @@
+.static-box{
+    position: static;
+    background-color: palegoldenrod;
+    width: 400px;
+    height: 100px;
+}
+.relative-box{
+    position: relative;
+    background-color: palegreen;
+    width: 400;
+    height: 100;
+    top: 20px;
+    left: 30px;
+}
+#container{
+    background-color: paleturquoise;
+    width: 400px;
+    height: 100px;
+}
+.absolute-box{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+}
+.fixed-box{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: palevioletred;
+    width: 400px;
+    height: 100px;
+}
+.sticky-box{
+    position: sticky;
+    top: 0px;
+    width: 400px;
+    height: 100px;
+    background-color: papayawhip;
+}
+.background-image{
+    width: 400px;
+    height: 100px;
+    background-image: url(https://th.bing.com/th/id/R.58cc46069f9c1bfec000c83e79721d31?rik=V6%2bwTqIO36Y40g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f24%2f374644-path-landscape-trees.jpg&ehk=4r8HqHCVUOTPA4f19szEL4vOhfNMFE4FPAQUSSsOg%2bA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-image-repeat{
+    width: 400px;
+    height: 100px;
+    background-image: url("https://th.bing.com/th/id/R.58cc46069f9c1bfec000c83e79721d31?rik=V6%2bwTqIO36Y40g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f24%2f374644-path-landscape-trees.jpg&ehk=4r8HqHCVUOTPA4f19szEL4vOhfNMFE4FPAQUSSsOg%2bA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 100px;
+    background-repeat: repeat;
+}
+.box1{
+    width: 400px;
+    height: 100px;
+    background-color: peachpuff;
+    z-index: 1;
+}
+.box2{
+    width: 400px;
+    height: 100px;
+    background-color: peru;
+    position: relative;
+    z-index: 2;
+    left: 100px;
+    top: -50px;
+}
+.row-container{
+    width: 400px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+}
+.row-child{
+    width: 100px;
+    height: 50px;
+    border: solid white 2px;
+}
+.column-container{
+    width: 400px;
+    height: 100px;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+}
+.column-child{
+    width: 100px;
+    height: 50px;
+    border: solid black 2px;
+}
+#container-justify-content{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: powderblue;
+    justify-content: space-evenly;
+}
+#container-flex-wrap{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: purple;
+    flex-wrap: wrap;
+}
+#container-align-items{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    background-color: khaki;
+    align-items: center;
+}
+.align-items1{
+    height: 50px;
+    width: 100px;
+    border: white solid 2px;
+}
+.align-items2{
+    height: 90px;
+    width: 100px;
+    border: white solid 2px;
+}
+.align-items3{
+    height: 70px;
+    width: 100px;
+    border: white solid 2px;
+}
+#container-align-content{
+    width: 400px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-content: space-evenly;
+}
