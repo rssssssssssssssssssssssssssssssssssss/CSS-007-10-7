@@ -1,0 +1,92 @@
+.transition-button{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    transition: background-color .5s ease
+}
+.transition-button:hover{
+    background-color: green;
+}
+.transition-div{
+    background-color: palegoldenrod;
+    width: 100px;
+    height: 200px;
+    transition: width 1s;
+}
+.transition-div:hover{
+    width: 200px;
+}
+.transition-text{
+    background-color: palegreen;
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+    transition: font-size .3s;
+}
+.transition-text:hover{
+    font-size: 24px;
+}
+.transition-image{
+    width: 300px;
+    height: 100px;
+    background-image: url("https://th.bing.com/th/id/R.58cc46069f9c1bfec000c83e79721d31?rik=V6%2bwTqIO36Y40g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f24%2f374644-path-landscape-trees.jpg&ehk=4r8HqHCVUOTPA4f19szEL4vOhfNMFE4FPAQUSSsOg%2bA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: opacity .8s ease
+}
+.transition-image:hover{
+    opacity: .5;
+}
+.scale-div{
+    width: 300px;
+    height: 100px;
+    background-color: paleturquoise;
+    transition: scale .5s ease;
+}
+.scale-div:hover{
+    scale: 1.5;
+}
+.scale-image{
+    width: 300px;
+    height: 100px;
+    background-image: url("https://th.bing.com/th/id/R.58cc46069f9c1bfec000c83e79721d31?rik=V6%2bwTqIO36Y40g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f24%2f374644-path-landscape-trees.jpg&ehk=4r8HqHCVUOTPA4f19szEL4vOhfNMFE4FPAQUSSsOg%2bA%3d&risl=&pid=ImgRaw&r=0");
+    transition: scale .5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.scale-image:hover{
+    scale: .75;
+}
+.translate-button{
+    width: 300px;
+    height: 100px;
+    background-color: palevioletred;
+    transition: translate .5s ease;
+}
+.translate-button:hover{
+    translate: 50px 20px;
+}
+.translate-div{
+    width: 300px;
+    height: 100px;
+    translate: 100px;
+    background-color: papayawhip;
+    transition: translate .5s ease;
+}
+.translate-div:hover{
+    translate: 0px 0px 100px;
+}
+.skew-heading{
+    background-color: peachpuff;
+    transition: transform skew skew(20px) .5s ease;
+}
+.skew-heaidng:hover{
+    transform: skewX(20px);
+}
+.skew-paragraph{
+    transition: skew(30deg) .5 ease;
+
+}
+.skew-paragraph:hover{
+    transform: skew(30deg);
+}
